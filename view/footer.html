@@ -1,0 +1,43 @@
+
+
+<footer>
+	<div class="row" style="background-color:white;text-align:center;border-top:ridge;padding-top:35px;">
+		<div  class="col-xs-3">
+			<p style="text-decoration: underline;"> Listes : </p>
+			<p class="row"> <a href="./index.php?controller=offre&action=listO" style="color:black"> Liste des offres </a> </p>
+			<p class="row"><a href="./index.php?controller=demande&action=listD" style="color:black"> Liste des demandes </a> </p>
+		</div>
+		<div  class="col-xs-3">
+		<?php	if(!isset($_SESSION['login'])){ echo '
+			<p style="text-decoration: underline;"> Propositions </p>
+			<p class="row"><a href ="./index.php?controller=utilisateur&action=connect" style="color:black"> Offres </a> </p>
+			<p class="row"><a href ="./index.php?controller=utilisateur&action=connect" style="color:black"> Demandes </a> </p>';
+			}else{echo '
+			<p style="text-decoration: underline;"> Propositions </p>
+			<p class="row"><a href ="./index.php?controller=offre&action=propose" style="color:black" > Offres </a> </p>
+			<p class="row"><a  href="./index.php?controller=demande&action=propose" style="color:black" > Demandes </a> </p>';
+			}?>
+		</div>
+		<div  class="col-xs-3">
+			<p style="text-decoration: underline;"> Profil </p>
+			<?php if(!isset($_SESSION['login'])){ echo '
+			<p class="row"><a href="./index.php?controller=utilisateur&action=create" style="color:black">  Inscription </a> </p>
+			<p class="row"><a href ="./index.php?controller=utilisateur&action=connect" style="color:black" > Connexion </a> </p>';
+			}else{
+			echo '			
+			<p class="row"><a href="./index.php?controller=utilisateur&action=monprofil" style="color:black"> Mon Profil </a> </p>
+			<p class="row"><a href="./index.php?controller=offre&action=mesoffres" style="color:black"> Mes offres </a></p>
+			<p class="row"><a href="./index.php?controller=demande&action=mesdemandes" style="color:black"> Mes demandes </a></p>
+			<p class="row"><a href="./index.php?controller=echange&action=mesechanges" style="color:black"> Mes echanges </a></p>';}?>
+
+		</div>
+		<div  class="col-xs-3">
+			<p style="text-decoration: underline;"> Aide </p>
+			<p class="row"><a href="./index.php?controller=accueil&action=aide" style="color:black"> Consultation Aide </a> </p>
+			<?php if(isset($_SESSION['login'])){ echo '<p class="row"><a  href="./index.php?controller=accueil&action=requete" style="color:black"> Contacter un administrateur </a> </p>';}?>
+		</div>
+		
+	</div>
+</footer>
+</body>
+</html>

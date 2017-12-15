@@ -1,0 +1,150 @@
+		.helpT{
+			font-size: x-small;
+		}
+		.navbar-top{
+			background-color:#808080;
+		}
+		.banniere{
+			padding-top:20px;
+		}
+		.logo{
+			height:100px;
+		}
+		.navbar{
+			height:30px;
+		}
+		legend{
+			font-size:20px;
+		}
+		.row-1{
+			background-color:#B0C4DE;
+		}
+		.formulaire1{
+			background-color:#FFFFFF;
+			border:groove;
+			border-color:#40CD39;
+			border-width:2px;
+
+		}
+		.formulaire2{
+			background-color:#FFFFFF;
+			border:groove;
+			border-color:#F75B20;
+			border-width:2px;
+		}
+		.row-2{
+			padding:20px 0 0;
+		}
+		.listeP{
+			background-color:white;
+			border-left:groove;
+			border-right:groove;
+			border-top:groove;
+			border-bottom:groove;
+			border-color:#F75B20;
+			border-width:2px;
+		}
+		.listeO{
+			background-color:white;
+			border-left:groove;
+			border-right:groove;
+			border-top:groove;
+			border-bottom:groove;
+			border-color:#40CD39;
+			border-width:2px;
+			
+		}
+		.listeE{
+			font-size:12px;
+		}
+		.elemD{
+			margin-right: 3px;
+			margin-left: 3px;
+			border-bottom: solid 1px;
+			padding-top: 5px;
+		}
+		.elemO{
+			margin-right: 3px;
+			margin-left: 3px;
+			border-bottom: solid 1px;
+			padding-top: 5px;
+		}
+		.image_detail{
+			width:350px;
+			height:350px;
+		}
+		.recherche{
+			text-align:center;
+		}
+		.bonhomme{
+			width:300px;
+			height:200px;
+			margin-top:0px;
+		}
+		.body{
+			background-color:#E1E1E1;
+			padding-left:25px
+		}
+		.container.body{
+			padding-right:100px;
+			padding-left:100px;
+		}header{
+			background-color:white;
+		}ul{
+			margin-left:6.500px;
+		}footer{
+			background-color:white;
+		}
+		h2.body{
+			padding-top:20px;
+			padding-bottom:10px;
+			margin:0;
+		}.listeOA{
+			background-color:#B2FBA2;
+			border-radius:10px;
+			margin-bottom:5px;
+			margin-top:5px;
+			margin-left:-10px;
+			margin-right:-10px;	
+			
+		}.listeDA{
+			background-color:#FFBF8A;
+			border-radius:10px;
+			margin-top:5px;
+			margin-left:-10px;
+			margin-right:-10px;
+			margin-bottom:5px;
+		}.etoile{
+			width:60%;
+		}.etoileP{
+			width:15%;
+		}header{
+			font-family:Corbel;
+		}body{
+			font-family:Corbel;
+		}
+		.listeOA>a{
+			font-size:16px;
+		}
+		.listeDA>a{
+			font-size:16px;
+		}
+		.listeE>p{
+			margin-bottom:0px;
+		}.aide>p{
+			margin: 0 0 0px;
+			font-size:19px;
+		}.aide{
+			
+		}.video{
+			padding-bottom:25px;
+			text-align:center;
+		}.aide2{
+			padding-bottom:25px;
+		}.slogan{
+			padding-top:35px;
+			font-size:20px;
+		}.charte{
+			text-align:center;
+			padding: 15 15 15 15px;
+		}
